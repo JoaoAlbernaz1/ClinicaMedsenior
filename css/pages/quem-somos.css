@@ -1,0 +1,49 @@
+@import url('../styles.css');
+
+#header.page-quem-somos {
+    background-image: url("imagens/pexels7.jpg");
+}
+
+#intro h2,
+#valores h2 {
+    font-size: 20px;
+}
+
+#intro h2 {
+    text-align: left;
+}
+
+#intro h2:after {
+    margin: 5px 0 0 0;
+}
+
+#valores {
+    background-color: #f3f0e7;
+}
+
+#valores h2 {
+    margin-top: 20px;
+}
+
+#valores h2:after {
+    display: none;
+}
+
+#img-box img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    
+}
+
+@media (max-width: 991px) {
+    #img-box {
+        text-align: center;
+    }
+}
+
+.breadcrumb{
+margin-top: 30px;
+margin-left: 30px;
+
+}
